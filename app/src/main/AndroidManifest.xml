@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name=".PauseActivity"
+            android:label="@string/title_activity_pause" >
+        </activity>
     </application>
 
 </manifest>
